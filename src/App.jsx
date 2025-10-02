@@ -12,7 +12,8 @@ import React, { useEffect, useMemo, useState } from "react";
  * - Admin section to create GW, upload stats, compute points
  */
 
-const BASE_URL = "https://nfl-fpl-backend.onrender.com"; 
+const BASE_URL = "https://nfl-fpl-backend.onrender.com";
+ 
 // 👆 replace with your actual Render backend URL
 
 async function api(path, { method = "GET", body, userId } = {}) {
